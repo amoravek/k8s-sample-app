@@ -8,9 +8,9 @@ import k8s.sample.resources.LivenessResource;
 import k8s.sample.resources.MainResource;
 import k8s.sample.resources.ReadinessResource;
 
-public class HelloWorldApplication extends Application<HelloWorldConfiguration> {
+public class KubeSampleApp extends Application<HelloWorldConfiguration> {
 	public static void main(String[] args) throws Exception {
-		new HelloWorldApplication().run(args);
+		new KubeSampleApp().run(args);
 	}
 
 	@Override

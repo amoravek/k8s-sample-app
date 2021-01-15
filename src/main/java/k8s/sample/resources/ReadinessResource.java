@@ -29,7 +29,6 @@ public class ReadinessResource {
 		} else {
 			return Response.status(Response.Status.NOT_FOUND).build();
 		}
-
 	}
 
 	@GET
